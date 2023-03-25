@@ -67,7 +67,7 @@ jobs:
     #   modify them (or add more) to build your code if your project, please refer to the EXAMPLE below for guidance.
 
     - run: |
-           g++ -std=c++17 -o fileserver main/main.cpp -lssl -lcrypto
+           g++ -g -std=c++17 -o fileserver main/main.cpp -lssl -lcrypto
     #     echo "Run, Build Application using script"
     #     ./location_of_script_within_repo/buildscript.sh
 
